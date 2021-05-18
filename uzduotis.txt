@@ -1,0 +1,25 @@
+// Create simple react inventory management app
+
+// user should be able to upload item (create route for upload)
+// title, photo, price, quantity, id (when item is uploaded it gets random id)
+
+// user should be able to see all items (create route for item list)
+// show items as column in table
+// each row should have item info and button for update
+// when UPDATE button clicked item values changes to inputs
+// and user are able to add new values and click "CONFIRM" to save them
+
+// create route for favorite items
+// add "add to favorite" button for each item in table
+// when "add to favoriteʻ is clicked item is added to favorites
+// user can go to route where he sees all products in favorites
+// also in favorites route user can remove item from favorites
+
+// under the table with items there should be total sum of items quantity
+// and total sum of items price
+
+// each of items should have delete button to permanently delete item
+
+// application should be able responsive (look ok on phone)
+
+// UPLOAD APPLICATION TO GITHUB
