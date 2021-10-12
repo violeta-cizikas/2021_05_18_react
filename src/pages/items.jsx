@@ -128,7 +128,7 @@ function Page({ items, setItems }) {
                     Delete
                   </button>
                   {item.favorite ? (
-                    <button
+                    <button className="favoriteButton"
                       onClick={() => {
                         item.favorite = false;
                         setItems(items.concat());
@@ -137,7 +137,7 @@ function Page({ items, setItems }) {
                       Remove favorite
                     </button>
                   ) : (
-                    <button
+                    <button className="favoriteButton"
                       onClick={() => {
                         item.favorite = true;
                         setItems(items.concat());
